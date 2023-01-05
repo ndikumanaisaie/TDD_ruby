@@ -19,7 +19,7 @@ describe 'Write unit tests for class Solver' do
       expect(result).to match('No negative integer. This is an exception.')
     end
   end
-  
+
   context '#fizzbuzz function' do
     it 'should return fizzbuzz if the number is divisible by 3 and 5' do
       expect(@solver.fizzbuzz(15)).to eq 'fizzbuzz'
@@ -32,6 +32,18 @@ describe 'Write unit tests for class Solver' do
     end
     it 'should return a number if the number is not divisible by 3 or 5' do
       expect(@solver.fizzbuzz(7)).to eq 7
+    end
+  end
+
+  context '#reverse method' do
+    it 'should take one argument string word and returns word in reverse' do
+      reversed_word = @solver.reverse('hello')
+      expect(reversed_word).to match('olleh')
+    end
+
+    it 'should return an empty string when word is empty' do
+      reversed_word = @solver.reverse('')
+      expect(reversed_word).to match('')
     end
   end
 end
