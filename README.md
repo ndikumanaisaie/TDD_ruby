@@ -21,9 +21,9 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 OOP SCHOOL LIBRARY <a name="about-project"></a>
+# 📖 TDD_ruby <a name="about-project"></a>
 
-**OOP SCHOOL LIBRARY** is a tool that lets librarian of OOP University to record what books are in the library and who borrows them.
+**TDD_ruby** is a ruby project to practice Test-Driven Development.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -67,8 +67,8 @@ In order to run this project you need:
 
 To get a local copy up and running follow these simple example steps.
 
-- clone: run `git clone https://github.com/ndikumanaisaie/oop_school_library.git` .
-- To move to cloned folder: run `cd oop_school_library`.
+- clone: run `git clone https://github.com/ndikumanaisaie/TDD_ruby.git` .
+- To move to cloned folder: run `cd TDD_ruby`.
 
 ### Install
 
